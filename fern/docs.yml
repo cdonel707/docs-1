@@ -1,8 +1,7 @@
 instances:
-  - url: plantstore.docs.buildwithfern.com # update this to {yourorg}.docs.buildwithfern.com
-    # custom-domain: plantstore.dev # specify your custom domain when you are ready to go live
+  - url: https://docs.distillabs.ai
 
-title: Plant Store
+title: Distil Labs | Documentation
 
 layout:
   searchbar-placement: header
@@ -15,9 +14,6 @@ navigation:
         path: docs/pages/welcome.mdx
       - page: Concepts
         path: docs/pages/concepts.mdx
-      - page: SDKs
-        path: docs/pages/sdks.mdx
-        slug: sdks
   - api: API Reference
 
 navbar-links:
@@ -31,9 +27,8 @@ navbar-links:
     value: https://github.com/fern-api/fern
 
 colors:
-  accentPrimary:
-    dark: "#81C784"
-    light: "#1B5E20"
+  accentPrimary: '#000000'
+  background: '#ffffff'
 
 logo:
   dark: docs/assets/logo-dark.svg
