@@ -1,5 +1,6 @@
 instances:
-  - url: https://docs.distillabs.ai
+  - url: distil-labs.docs.buildwithfern.com
+    custom-domain: docs.distillabs.ai
 
 title: Distil Labs | Documentation
 
